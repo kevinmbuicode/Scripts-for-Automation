@@ -56,17 +56,17 @@ def search_files(directory, keyword):
 
 # Example usage:
 if __name__ == "__main__":
-    # Step 1: Provide a directory path containing files to be managed
+    # Provide a directory path containing files to be managed
     directory_path = "path/to/your/directory"
 
-    # Step 2: Rename files in the directory based on certain criteria
+    # Rename files in the directory based on certain criteria
     rename_files(directory_path, lambda x: x.replace(" ", "_"))  # Example: Replace spaces with underscores
 
-    # Step 3: Organize files into folders based on file extensions
+    # Organize files into folders based on file extensions
     destination_folder = "path/to/organized/folder"
     organize_files(directory_path, destination_folder)
 
-    # Step 4: Search for specific files containing a keyword
+    # Search for specific files containing a keyword
     keyword = "important"
     found_files = search_files(directory_path, keyword)
     print("Files containing '{}' keyword: {}".format(keyword, found_files))
