@@ -1,2 +1,2 @@
 # Scripts-for-Automation
-Scripta for automating different tasks
+Scripts for automating different tasks
